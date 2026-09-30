@@ -1,1 +1,14 @@
+# Local development settings / secrets
 **/appsettings.Development.json
+
+# .NET build files
+**/bin/
+**/obj/
+
+# IDE files
+.idea/
+.vs/
+
+# User-specific files
+*.user
+*.suo
