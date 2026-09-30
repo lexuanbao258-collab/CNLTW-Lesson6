@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet --version)",
+      "Bash(dotnet --list-sdks)",
+      "Bash(dotnet add *)",
+      "Bash(dotnet tool *)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
