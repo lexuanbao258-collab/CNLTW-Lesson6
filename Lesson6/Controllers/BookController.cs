@@ -20,13 +20,8 @@ public class BookController : Controller
         return View(books);
     }
 
-    public async Task<IActionResult> Details(int? id)
+    public async Task<IActionResult> Detail(int id)
     {
-        if (id == null)
-        {
-            return NotFound();
-        }
-
         var book = await _context.Books.FindAsync(id);
         if (book == null)
         {

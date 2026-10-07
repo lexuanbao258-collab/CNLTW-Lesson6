@@ -28,7 +28,7 @@
                 <td>@book.Author</td>
                 <td class="text-end">@book.Price.ToString("N2")</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@book.Id" class="btn btn-sm btn-outline-info">Chi tiết</a>
+                    <a asp-action="Detail" asp-route-id="@book.Id" class="btn btn-sm btn-outline-info">Chi tiết</a>
                     <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-sm btn-outline-primary">Sửa</a>
                     <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-sm btn-outline-danger">Xóa</a>
                 </td>
